@@ -13,7 +13,7 @@ var app = express();
 // MongoDB connection setup
 const mongoose = require('mongoose');
 mongoose
-  .connect('mongodb://localhost:27017/darkHackerDB', {
+  .connect('mongodb+srv://temurbekshukurov0707:CtjfTeh1GQeWXrwt@cluster0.jgrgqhl.mongodb.net/darkHackerDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
